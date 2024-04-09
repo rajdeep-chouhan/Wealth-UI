@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    /* gap: 120px; */
+    list-style: none;
+    background-color: rgb(25,22,31);
+    color: white;
+    padding-left: 40px;
+}
+
+.blank1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /* color: white; */
+
+}
+.blank{
+    width: 85%;
+    /* color: white;
+     */
+     background-color: white;
+    height: 1px;
+}
+
+.nav button{
+    height: 40px;
+   width: 90px;
+   color: white;
+   font-size: 16px;
+   background-color: black;
+   border-radius: 10px;
+   border: 1px solid white;
+}
+.sp1{
+    display: flex;
+    align-items:center ;
+    font-family: "Merriweather", serif;
+
+}
+.sp2{
+    display: flex;
+    align-items: center;
+
+}
+.sp3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pr1{
+    color: rgb(184,219,135);
+}
+#se1{
+    color: rgb(184,219,135) ;
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+
+}
+#se2{
+    color:rgb(240,191,177);
+    font-family: "Merriweather", serif;
+
+}
+#se3{
+    color: white;
+    font-family: "Merriweather", serif;
+
+}
+
+#nv1{
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+    padding-left: 10px;
+
+}
+
+.sp2{
+    width: 40%;
+ text-align: center;
+ justify-content: space-around;
+}
+.sp3{
+    width: 20%;
+    gap: 15px;
+}
+
+
+.nav li{
+    margin-right: 90px;
+}
+
+.nav i{
+    display: none;
+}
+
+
+.section1 h1{
+    padding-block: 20px;
+    padding-top: 40px;
+    padding-left: 250px;
+    background-color: rgb(25,22,31);
+    color: white;
+    font-family: "Merriweather", serif;
+
+}
+.section1 p{
+    padding-left: 250px;
+    background-color: rgb(25,22,31);
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.spp1{
+    font-weight: 400;
+    color: white;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(25,22,31);
+    color: white;
+    padding-top: 40px;
+    display: flex;
+
+}
+.card1{
+    width: 20%;
+    height: 65vh;
+    /* background-color: white; */
+    /* background-color: #F9F5F4; */
+    background-color: #F9F5F4;
+    color: black;
+    border-radius: 1px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.card1 p{
+   padding-block: 10px;
+   font-size: 12px;
+}
+.card1 h2{
+    font-family: "Merriweather", serif;
+}
+/* .card1 i{
+    font-size: 16px;
+    color: #FFFFFF;
+} */
+/* #menu{
+    font-size: 16px;
+    color: #FFFFFF;
+} */
+
+.card1 div{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card1 span{   
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+.card1 span:first-child{
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+.card1 h2{
+    border-bottom: 1px solid rgb(94, 94, 94);
+    padding-bottom: 10px;
+    width: 90%;
+}
+.btn11{
+    /* color: white; */
+    color: #F9F5F4;
+    background-color: rgb(27, 25, 25);
+    width: 96px;
+    height: 25px;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+}
+.btn12{
+    /* color: white; */
+    color: #B8DB87;
+    background-color: rgb(27, 25, 25);
+    width: 108px;
+    height: 25px;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+}
+.btn13{
+    /* color: white; */
+    color: #F0BFB1;
+    background-color: rgb(27, 25, 25);
+    width: 118px;
+    height: 25px;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.btn21{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+
+
+
+.card2{
+    width: 20%;
+    height: 65vh;
+    /* height: auto; */
+    /* background-color: white; */
+    background-color: #B8DB87;
+    color: black;
+    border-radius: 1px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.card2 p{
+   padding-block: 10px;
+   font-size: 12px;
+}
+.card2 h2{
+    font-family: "Merriweather", serif;
+}
+/* .card1 i{
+    font-size: 16px;
+    color: #FFFFFF;
+} */
+/* #menu{
+    font-size: 16px;
+    color: #FFFFFF;
+} */
+
+.card2 div{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.card2 span{   
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+.card2 span:first-child{
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+.card2 h2{
+    border-bottom: 1px solid rgb(94, 94, 94);
+    padding-bottom: 10px;
+    width: 90%;
+}
+/* .btn1{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 96px;
+    height: 25px;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+} */
+
+
+.btn22{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+.card3{
+    width: 20%;
+    height: 65vh;
+    /* height: auto; */
+    /* background-color: white; */
+    background-color: #F0BFB1;
+    color: black;
+    border-radius: 1px solid black;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.card3 p{
+   padding-block: 10px;
+   font-size: 12px;
+}
+.card3 h2{
+    font-family: "Merriweather", serif;
+}
+/* .card1 i{
+    font-size: 16px;
+    color: #FFFFFF;
+} */
+#menu{
+    font-size: 16px;
+    color: #F9F5F4;
+}
+#menu2{
+    font-size: 16px;
+    color: #B8DB87;
+}
+#menu3{
+    font-size: 16px;
+    color: #F0BFB1;
+}
+
+
+
+
+.card3 div{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.card3 span{   
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+.card3 span:first-child{
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+.card3 h2{
+    border-bottom: 1px solid rgb(94, 94, 94);
+    padding-bottom: 10px;
+    width: 90%;
+}
+/* .btn1{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 96px;
+    height: 25px;
+    border: none;
+    font-size: 11px;
+    border-radius: 10px;
+} */
+
+
+.btn23{
+    color: white;
+    background-color: rgb(27, 25, 25);
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+button{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+     .nav i{
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+     }
+     .nav{
+        padding-inline: 60px;
+        justify-content: space-between;
+     }
+     .sp2{
+        display: none;
+     }
+     .sp3{
+        display: none;
+     }
+
+
+
+     .section2{
+        flex-direction: column;
+     }
+     .card1{
+        width: 60%;
+        margin-left: 140px;
+     }
+     .card2{
+        width: 60%;
+        margin-left: 140px;
+     }
+     .card3{
+        width: 60%;
+        margin-left: 140px;
+     }
+
+     .section1 h1{
+        padding-left: 140px;
+     }
+     .section1 p{
+        padding-left: 140px;
+     }
+}
+    
